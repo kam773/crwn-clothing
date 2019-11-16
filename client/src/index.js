@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-
+import * as serviceWorker from './serviceWorker'
 import { store, persistor } from './redux/store';
 
 import './index.css';
@@ -12,7 +12,7 @@ import App from './App';
 import dotenv from 'dotenv'
 
 const dotEnvOptions = {
-  path: '../../.env'
+  path: '../.env'
 }
 
 dotenv.config(dotEnvOptions)
@@ -28,3 +28,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+serviceWorker.register()
