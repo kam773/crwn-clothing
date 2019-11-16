@@ -13,13 +13,13 @@ class ErrorBoundary extends Component {
     }
   }
   componentDidCatch(error, info) {
-    console.log(error)
+    // console.log(error)
   }
   render() {
     if (this.state.hasErrored === true) {
       return (
         <ErrorImageOverlay>
-          <ErrorImageOverlay imageUrl="https://i.imgur.com/yW2W9SC.png" />
+          <ErrorImageContainer imageUrl="https://i.imgur.com/yW2W9SC.png" />
           <ErrorImageText>Sorry this page is broken</ErrorImageText>
         </ErrorImageOverlay>)
     }

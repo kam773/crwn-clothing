@@ -2,15 +2,18 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
+const apiKey = process.env.REACT_APP_API_KEY
+console.log(apiKey)
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDhLQ-l4vgjXhM31CPZDt5g4XGssnc3hbk",
-  authDomain: "crwn-db-bc6bc.firebaseapp.com",
-  databaseURL: "https://crwn-db-bc6bc.firebaseio.com",
-  projectId: "crwn-db-bc6bc",
-  storageBucket: "crwn-db-bc6bc.appspot.com",
-  messagingSenderId: "439932897469",
-  appId: "1:439932897469:web:d80a4ad018be23cd334fd4",
-  measurementId: "G-SDK529B65R"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
 

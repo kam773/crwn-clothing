@@ -9,6 +9,14 @@ import { store, persistor } from './redux/store';
 import './index.css';
 import App from './App';
 
+import dotenv from 'dotenv'
+
+const dotEnvOptions = {
+  path: '../../.env'
+}
+
+dotenv.config(dotEnvOptions)
+
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
