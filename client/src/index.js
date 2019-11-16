@@ -12,7 +12,7 @@ import App from './App';
 import dotenv from 'dotenv'
 
 const dotEnvOptions = {
-  path: '../.env'
+  path: '../../.env'
 }
 
 dotenv.config(dotEnvOptions)
