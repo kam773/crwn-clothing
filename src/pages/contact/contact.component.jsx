@@ -7,15 +7,12 @@ import CustomButton from '../../components/custom-button/custom-button.component
 import { ContactContainer, ContactTitle } from './contact.styles'
 
 const Contact = () => {
-  const [value, setValue] = useState({ name: '', email: '', message: '' })
+  const [inputs, setInputs] = useState({ name: '', email: '', message: '' })
 
   const handleChange = event => {
     const { value, name } = event.target;
-    setValue({
-      [name]: value
-    })
+    setInputs(inputs => ({ ...inputs, [name]: value }))
   }
-  console.log(value)
   const handleSubmit = () => {
 
   }
@@ -27,7 +24,7 @@ const Contact = () => {
           name='name'
           type='text'
           handleChange={handleChange}
-          value={value.name}
+          value={inputs.name}
           label='name'
           required
         />
@@ -35,7 +32,7 @@ const Contact = () => {
           name='email'
           type='email'
           handleChange={handleChange}
-          value={value.email}
+          value={inputs.email}
           label='email'
           required
         />
@@ -43,7 +40,7 @@ const Contact = () => {
           name='message'
           type='text'
           handleChange={handleChange}
-          value={value.message}
+          value={inputs.message}
           label='message'
           required
         />
