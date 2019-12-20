@@ -27,7 +27,6 @@ export const CollectionItemContainer = styled.div`
       }
       button {
         opacity: unset;
-
       }
     }
   }

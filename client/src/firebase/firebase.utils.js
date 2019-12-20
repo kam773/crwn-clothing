@@ -1,23 +1,24 @@
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-import 'firebase/auth'
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDhLQ-l4vgjXhM31CPZDt5g4XGssnc3hbk",
-  authDomain: "crwn-db-bc6bc.firebaseapp.com",
-  databaseURL: "https://crwn-db-bc6bc.firebaseio.com",
-  projectId: "crwn-db-bc6bc",
-  storageBucket: "crwn-db-bc6bc.appspot.com",
-  messagingSenderId: "439932897469",
-  appId: "1:439932897469:web:d80a4ad018be23cd334fd4",
-  measurementId: "G-SDK529B65R"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
+firebase.initializeApp(firebaseConfig);
 
-
-firebase.initializeApp(firebaseConfig)
-
-export const createUserProfileDocument = async (userAuth, additionalData) => {
+export const createUserProfileDocument = async (
+  userAuth,
+  additionalData,
+) => {
   if (!userAuth) return;
 
   const userRef = firestore.doc(`users/${userAuth.uid}`);
@@ -32,7 +33,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
         displayName,
         email,
         createdAt,
-        ...additionalData
+        ...additionalData,
       });
     } catch (error) {
       console.log('error creating user', error.message);
@@ -44,7 +45,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
 export const addCollectionAndDocuments = async (
   collectionKey,
-  objectsToAdd
+  objectsToAdd,
 ) => {
   const collectionRef = firestore.collection(collectionKey);
 
@@ -65,7 +66,7 @@ export const convertCollectionsSnapshotToMap = collections => {
       routeName: encodeURI(title.toLowerCase()),
       id: doc.id,
       title,
-      items
+      items,
     };
   });
 
@@ -89,6 +90,7 @@ export const firestore = firebase.firestore();
 
 export const googleProvider = new firebase.auth.GoogleAuthProvider();
 googleProvider.setCustomParameters({ prompt: 'select_account' });
-export const signInWithGoogle = () => auth.signInWithPopup(googleProvider);
+export const signInWithGoogle = () =>
+  auth.signInWithPopup(googleProvider);
 
 export default firebase;

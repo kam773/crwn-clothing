@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot capture snapshot of CartIcon 1`] = `null`;
+
+exports[`create snapshot capture snapshot of CartItem 1`] = `
+<div
+  className="sc-bdVaJa kUrIC"
+  onClick={[Function]}
+>
+  <svg
+    className="sc-bwzfXH cKSSZR"
+  >
+    shopping-bag.svg
+  </svg>
+  <span
+    className="sc-htpNat fFVhJp"
+  >
+    NaN
+  </span>
+</div>
+`;

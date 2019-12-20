@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create shapshot captures snapshot of CollectionsOverview 1`] = `
+<div
+  className="sc-iwsKbI dRZuUw"
+>
+  <div
+    className="sc-gzVnrw bvbgQA"
+  >
+    <h1
+      className="sc-htoDjs kCgwzc"
+      onClick={[Function]}
+    >
+      MENS
+    </h1>
+    <div
+      className="sc-dnqmqq koSTAP"
+      data-test="preview-container"
+    >
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw bvbgQA"
+  >
+    <h1
+      className="sc-htoDjs kCgwzc"
+      onClick={[Function]}
+    >
+      MENS
+    </h1>
+    <div
+      className="sc-dnqmqq koSTAP"
+      data-test="preview-container"
+    >
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw bvbgQA"
+  >
+    <h1
+      className="sc-htoDjs kCgwzc"
+      onClick={[Function]}
+    >
+      MENS
+    </h1>
+    <div
+      className="sc-dnqmqq koSTAP"
+      data-test="preview-container"
+    >
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gzVnrw bvbgQA"
+  >
+    <h1
+      className="sc-htoDjs kCgwzc"
+      onClick={[Function]}
+    >
+      MENS
+    </h1>
+    <div
+      className="sc-dnqmqq koSTAP"
+      data-test="preview-container"
+    >
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+      <div
+        className="sc-bwzfXH cFLGUT"
+      >
+        <div
+          className="sc-bxivhb dbDlmL image"
+        />
+        <div
+          className="sc-ifAKCX kDnhkJ"
+        >
+          <span
+            className="sc-EHOje kkQgTP"
+          />
+          <span
+            className="sc-bZQynM gGKQi"
+          >
+            200
+          </span>
+        </div>
+        <button
+          className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+          onClick={[Function]}
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot capture snapshot of CartItem 1`] = `
+<div
+  className="sc-bdVaJa eTYnIE"
+>
+  <img
+    alt="item"
+    className="sc-bwzfXH hTyRPc"
+    src="url"
+  />
+  <div
+    className="sc-htpNat kvpPYA"
+  >
+    <span
+      className="name"
+    >
+      name
+    </span>
+    <span
+      className="price"
+    >
+      2
+       x $
+      20
+    </span>
+  </div>
+</div>
+`;

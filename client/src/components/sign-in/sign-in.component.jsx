@@ -15,7 +15,7 @@ import {
   ButtonsBarContainer
 } from './sign-in.styles';
 
-class SignIn extends React.Component {
+export class SignIn extends React.Component {
   constructor(props) {
     super(props);
 
@@ -25,7 +25,7 @@ class SignIn extends React.Component {
     };
   }
 
-  handleSubmit = async event => {
+  handleSubmit = event => {
     event.preventDefault();
     const { emailSignInStart } = this.props;
     const { email, password } = this.state;
@@ -45,7 +45,6 @@ class SignIn extends React.Component {
       <SignInContainer>
         <SignInTitle>I already have an account</SignInTitle>
         <span>Sign in with your email and password</span>
-
         <form onSubmit={this.handleSubmit}>
           <FormInput
             name='email'
@@ -66,7 +65,6 @@ class SignIn extends React.Component {
           <ButtonsBarContainer>
             <CustomButton type='submit'> Sign in </CustomButton>
             <CustomButton
-              type='button'
               onClick={googleSignInStart}
               isGoogleSignIn
             >

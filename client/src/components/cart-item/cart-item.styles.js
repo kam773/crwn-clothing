@@ -19,3 +19,6 @@ export const ItemDetailsContainer = styled.div`
   justify-content: center;
   padding: 10px 20px;
 `;
+
+CartItemContainer.displayName = 'CartItemContainer';
+CartItemImage.displayName = 'CartItemImage';

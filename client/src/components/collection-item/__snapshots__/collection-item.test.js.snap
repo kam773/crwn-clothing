@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot capture snapshot of CollectionItem 1`] = `
+<div
+  className="sc-bwzfXH cFLGUT"
+>
+  <div
+    className="sc-bxivhb dbDlmL image"
+  />
+  <div
+    className="sc-ifAKCX kDnhkJ"
+  >
+    <span
+      className="sc-EHOje kkQgTP"
+    >
+      name
+    </span>
+    <span
+      className="sc-bZQynM gGKQi"
+    >
+      20
+    </span>
+  </div>
+  <button
+    className="sc-bdVaJa fKNtmD sc-htpNat iOWmNc"
+    onClick={[Function]}
+  >
+    Add to cart
+  </button>
+</div>
+`;

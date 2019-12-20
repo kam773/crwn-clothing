@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot captures snapshot of Header 1`] = `
+<div
+  className="sc-gZMcBi dKLNdS"
+>
+  <a
+    className="sc-gqjmRU BQCF"
+    href="/"
+    onClick={[Function]}
+  >
+    <svg
+      className="logo"
+    >
+      crown.svg
+    </svg>
+  </a>
+  <div
+    className="sc-VigVT fTbjAp"
+  >
+    <a
+      className="sc-jTzLTM cPNuvf"
+      href="/shop"
+      onClick={[Function]}
+    >
+      SHOP
+    </a>
+    <a
+      className="sc-jTzLTM cPNuvf"
+      href="/contact"
+      onClick={[Function]}
+    >
+      CONTACT
+    </a>
+    <div
+      className="sc-jTzLTM cPNuvf"
+      onClick={[Function]}
+    >
+      SIGN OUT
+    </div>
+    <div
+      className="sc-bdVaJa kUrIC"
+    >
+      <svg
+        className="sc-bwzfXH cKSSZR"
+      >
+        shopping-bag.svg
+      </svg>
+      <span
+        className="sc-htpNat fFVhJp"
+      />
+    </div>
+  </div>
+</div>
+`;

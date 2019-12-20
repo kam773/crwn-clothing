@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot captures snapshot of Directory component 1`] = `
+<div
+  className="sc-EHOje gDbvGt"
+>
+  <div
+    className="sc-bdVaJa HgIHW"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-bwzfXH dEuOvA background-image"
+    />
+    <div
+      className="sc-htpNat bxciRy content"
+    >
+      <span
+        className="sc-bxivhb clMuku"
+      >
+        HATS
+      </span>
+      <span
+        className="sc-ifAKCX dDPkuj"
+      >
+        SHOP NOW
+      </span>
+    </div>
+  </div>
+  <div
+    className="sc-bdVaJa HgIHW"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-bwzfXH dEuOvA background-image"
+    />
+    <div
+      className="sc-htpNat bxciRy content"
+    >
+      <span
+        className="sc-bxivhb clMuku"
+      >
+        HATS
+      </span>
+      <span
+        className="sc-ifAKCX dDPkuj"
+      >
+        SHOP NOW
+      </span>
+    </div>
+  </div>
+</div>
+`;

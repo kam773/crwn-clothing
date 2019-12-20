@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot captures snapshot of MenuItem component 1`] = `
+<div
+  className="sc-bdVaJa iAGkBX"
+  onClick={[Function]}
+  size="xl"
+>
+  <div
+    className="sc-bwzfXH bKoLgt background-image"
+  />
+  <div
+    className="sc-htpNat bxciRy content"
+  >
+    <span
+      className="sc-bxivhb clMuku"
+    >
+      TITLE
+    </span>
+    <span
+      className="sc-ifAKCX dDPkuj"
+    >
+      SHOP NOW
+    </span>
+  </div>
+</div>
+`;

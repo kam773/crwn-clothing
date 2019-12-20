@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create shanpshot capture snapshot of CheckoutItem 1`] = `
+<div
+  className="sc-bdVaJa epBhhw"
+>
+  <div
+    className="sc-bwzfXH hpBwHb"
+  >
+    <img
+      alt="item"
+      src="url"
+    />
+  </div>
+  <span
+    className="sc-htpNat HjiRX"
+  >
+    name
+  </span>
+  <span
+    className="sc-htpNat sc-bxivhb jCdJTz"
+  >
+    <div
+      onClick={[Function]}
+    >
+      ❮
+    </div>
+    <span>
+      2
+    </span>
+    <div
+      onClick={[Function]}
+    >
+      ❯
+    </div>
+  </span>
+  <span
+    className="sc-htpNat HjiRX"
+  >
+    20
+  </span>
+  <div
+    className="sc-ifAKCX iRMGWo"
+    onClick={[Function]}
+  >
+    ✕
+  </div>
+</div>
+`;

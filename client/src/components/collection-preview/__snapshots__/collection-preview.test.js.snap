@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`collection-preview tests renders correctly collection-preview component 1`] = `ShallowWrapper {}`;
+
+exports[`create snapshot captures snapshot of CollectionPreview 1`] = `ShallowWrapper {}`;

@@ -30,3 +30,7 @@ export const CartItemsContainer = styled.div`
   flex-direction: column;
   overflow: scroll;
 `;
+
+EmptyMessageContainer.displayName = 'EmptyMessageContainer';
+CartDropdownButton.displayName = 'CartDropdownButton';
+CartItemsContainer.displayName = 'CartItemsContainer';

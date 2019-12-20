@@ -5,9 +5,9 @@ export const CollectionPreviewContainer = styled.div`
   flex-direction: column;
   margin-bottom: 30px;
 
-    @media screen and (max-width: 800px) {
-        align-items: center;
-    }
+  @media screen and (max-width: 800px) {
+    align-items: center;
+  }
 `;
 
 export const TitleContainer = styled.h1`

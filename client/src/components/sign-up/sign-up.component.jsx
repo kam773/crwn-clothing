@@ -8,7 +8,7 @@ import { signUpStart } from '../../redux/user/user.actions';
 
 import { SignUpContainer, SignUpTitle } from './sign-up.styles';
 
-class SignUp extends React.Component {
+export class SignUp extends React.Component {
   constructor() {
     super();
 
@@ -20,7 +20,7 @@ class SignUp extends React.Component {
     };
   }
 
-  handleSubmit = async event => {
+  handleSubmit = event => {
     event.preventDefault();
     const { signUpStart } = this.props;
     const { displayName, email, password, confirmPassword } = this.state;
@@ -50,7 +50,7 @@ class SignUp extends React.Component {
             type='text'
             name='displayName'
             value={displayName}
-            onChange={this.handleChange}
+            handleChange={this.handleChange}
             label='Display Name'
             required
           />
@@ -58,7 +58,7 @@ class SignUp extends React.Component {
             type='email'
             name='email'
             value={email}
-            onChange={this.handleChange}
+            handleChange={this.handleChange}
             label='Email'
             required
           />
@@ -66,7 +66,7 @@ class SignUp extends React.Component {
             type='password'
             name='password'
             value={password}
-            onChange={this.handleChange}
+            handleChange={this.handleChange}
             label='Password'
             required
           />
@@ -74,7 +74,7 @@ class SignUp extends React.Component {
             type='password'
             name='confirmPassword'
             value={confirmPassword}
-            onChange={this.handleChange}
+            handleChange={this.handleChange}
             label='Confirm Password'
             required
           />

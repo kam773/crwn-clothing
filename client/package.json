@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "dotenv": "^8.2.0",
+    "fetch-mock": "^8.2.0-beta.2",
     "firebase": "^7.2.3",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
@@ -24,6 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:watch": "jest --watch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,5 +43,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "jest": "^24.9.0",
+    "moxios": "^0.4.0",
+    "react-test-renderer": "^16.12.0",
+    "redux-mock-store": "^1.5.4",
+    "redux-saga-test-plan": "^4.0.0-rc.3"
   }
 }
